@@ -2,7 +2,7 @@ name := """$name$"""
 
 version := "$version$"
 
-mainClass := Some("$main_class$")
+mainClass := Some("""$name;format="Camel"$""")
 
 organization := "$organization$"
 
