@@ -34,6 +34,10 @@ coverageHighlighting := scalaBinaryVersion.value == "2.12"
 // Apply default Scalariform formatting.
 // Reformat at every compile.
 // c.f. https://github.com/sbt/sbt-scalariform#advanced-configuration for more options.
+import scalariform.formatter.preferences._
+import com.typesafe.sbt.SbtScalariform
+import com.typesafe.sbt.SbtScalariform.ScalariformKeys
+
 scalariformSettings
 
 ScalariformKeys.preferences := ScalariformKeys.preferences.value
