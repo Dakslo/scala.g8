@@ -47,8 +47,6 @@ ScalariformKeys.preferences := ScalariformKeys.preferences.value
 .setPreference(FormatXml, false)
 .setPreference(IndentLocalDefs, true)
 .setPreference(IndentWithTabs, true)
-.setPreference(PreserveDanglingCloseParenthesis, true)
-.setPreference(MultilineScaladocCommentsStartOnFirstLine, true)
 
 scalastyleFailOnError := true
 
